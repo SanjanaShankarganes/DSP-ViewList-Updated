@@ -20,6 +20,10 @@ background-color: #f5f5f5;
   align-items: center;
   justify-content: space-between;
 }
+.App-header p{
+  letter-spacing: 5px !important;
+  font-weight: bold;
+}
 #policeLogo{
   height: 70px;
 }

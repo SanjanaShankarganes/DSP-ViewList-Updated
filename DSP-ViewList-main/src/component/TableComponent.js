@@ -24,10 +24,10 @@ const App = () => {
   );
 
   return (
-    <div className='my-5 viewDiv'>
-      <div className="btn-Div">
-        <div className="select-Btn row g-2">
-          <div className="col-sm-3">
+    <div className='m-5 viewDiv'>
+      <div className="btn-Div ">
+        <div className="select-Btn row">
+          <div className="col-md-3">
             <label htmlFor="areaSelect" className="form-label">Police Station</label>
             <select 
               id="areaSelect" 
@@ -47,7 +47,7 @@ const App = () => {
               <option value="Nallipalayam">Nallipalayam</option>
             </select>
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3">
             <label htmlFor="statusSelect" className="form-label">Status</label>
             <select 
               id="statusSelect" 
@@ -61,7 +61,7 @@ const App = () => {
               <option value="Not Completed">Not Completed</option>
             </select>
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-2">
             <label htmlFor="typeSelect" className="form-label">Type</label>
             <select 
               id="typeSelect" 
@@ -76,7 +76,7 @@ const App = () => {
               <option value="Organisation">Organisation</option>
             </select>
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-2">
             <label htmlFor="dateSelect" className="form-label">Date</label>
             <select 
               id="dateSelect" 
@@ -94,7 +94,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="tableDiv table-responsive-lg m-5">
+      <div className="tableDiv table-responsive-lg my-5">
         <table className="table table-light table-striped table-hover">
           <thead>
             <tr>
